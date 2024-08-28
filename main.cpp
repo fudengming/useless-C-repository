@@ -44,7 +44,7 @@ int main(){
     }else{
         your_gender=="男" ? wife_or_husband="老婆" : wife_or_husband="老公";
     }
-    short your_lover_age=0;
+    float your_lover_age=0;
     string get_age;
     do{
         cout<<"你"<<wife_or_husband<<"的年龄:";
