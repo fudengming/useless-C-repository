@@ -5,9 +5,9 @@ using std::cout;
 using std::string;
 using std::cin;
 int main(){
-    string your_gender="temp text";
-    string your_lover_gender="temp text";
-    string wife_or_husband="temp text";
+    string your_gender;
+    string your_lover_gender;
+    string wife_or_husband;
     do{
         cout<<"你的性别是:";
         cin>>your_gender;
@@ -45,7 +45,7 @@ int main(){
         your_gender=="男" ? wife_or_husband="老婆" : wife_or_husband="老公";
     }
     short your_lover_age=0;
-    string get_age="temp text";
+    string get_age;
     do{
         cout<<"你"<<wife_or_husband<<"的年龄:";
         cin>>get_age;
